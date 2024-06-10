@@ -18,3 +18,4 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_TECNO-KJ6
 
 # TWRP Configs
 TW_DEVICE_VERSION := KJ6_by_rama982
+TW_LOAD_VENDOR_MODULES := "chipone-tddi.ko ft8006p-no-flash-common.ko"
