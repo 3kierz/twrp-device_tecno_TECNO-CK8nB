@@ -4,18 +4,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-KJ6
+DEVICE_PATH := device/tecno/TECNO-CK8NB
 
 # Inherit from mt6789-common
-include device/transsion/mt6789-common/BoardConfigCommon.mk
+include device/transsion/mt6893-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := TECNO-KJ6
+TARGET_OTA_ASSERT_DEVICE := TECNO-CK8NB
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_TECNO-KJ6
-TARGET_RECOVERY_DEVICE_MODULES := libinit_TECNO-KJ6
+TARGET_INIT_VENDOR_LIB := libinit_TECNO-CK8NB
+TARGET_RECOVERY_DEVICE_MODULES := libinit_TECNO-CK8NB
 
 # TWRP Configs
-TW_DEVICE_VERSION := KJ6_by_rama982
-TW_LOAD_VENDOR_MODULES := "chipone-tddi.ko ft8006p-no-flash-common.ko"
+TW_DEVICE_VERSION := CK8NB by aar1su on telegram
