@@ -1,1 +1,1 @@
-## Device config for TWRP TECNO SPARK 20 Pro ( TECNO-KJ6 )
+## Device config for TWRP TECNO CAMON 20S PRO 5G (CK8NB)
